@@ -4,35 +4,55 @@ body{
     min-height: 100vh;
     flex-direction: column;
     background-color: #D5DBDB;
+    font-family: 'Lato', sans-serif;
+
 }
 
 /*-HEADER-------------------------------------->*/
+header{
+  width: 100%;
+}
 header nav{
-    background-color: #F94040;
-    font-family: 'Lato', sans-serif;
-    max-height: 70px;
+  background-color: #F94040;
+  font-family: 'Lato', sans-serif;
+  height: 70px;
+}
+.menu_bar{
+  display: none;
 }
 
-nav .container{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
-nav .container span{
-    font-size: 45px;
-    color: white;
+nav  h1{
+  font-size: 45px;
+  color: white;
 }
 
-.container ul{
+nav ul{
     list-style: none;
     display: flex;
     gap: 20px;
 }
-.container ul li a{
+nav ul li a{
+    margin-top: 0;
     text-decoration: none;
+    padding: 21px 20px 17px 20px;
     font-size: 18px;
     color: white;
+}
+nav ul li i{
+  position: relative;
+  top: 5px;
+  margin-right: 1px;
+}
+
+nav ul li a:hover{
+  background-color: white;
+  color: #F94040;
 }
 
 .search-container{
@@ -75,7 +95,7 @@ nav .container span{
     color: white;
   }
   
-  search-container:hover{
+  .search-container:hover{
     animation: hoverSnake 0.15s linear 3;
   }
   
@@ -91,7 +111,7 @@ header section{
   width: 800px;
   height: 500px;
   margin: 10px;
-  background: #1D212B;
+  background: #36373b;
 }
 
 .img-slider .slide{
@@ -155,10 +175,13 @@ header section{
 }
 
 .img-slider .navigation .btn.active{
-  background: #2696E9;
+  background: #F94040;
   box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
 }
-/*-SLIDER-------------------------------------->*/
+section{
+  padding: 20px;
+}
+/*-SLIDER------ -------------------------------->*/
 
 
 /*--KEYFRAMES----------------------------------->*/
@@ -176,6 +199,40 @@ header section{
 /*--MEDIA----------------------------------->*/
 
 @media (max-width: 820px){
+  header nav{
+    width: 80%;
+    height: 100%;
+    margin: 0;
+    position: fixed;
+    display: block;
+  }
+  header nav ul{
+    display: block;
+    float: none;
+  }
+  header nav ul li{
+    border-bottom:1px solid rgba(165, 166, 166, .3);
+  }
+  .menu_bar{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: #F94040;
+  }
+  .menu_bar i{
+    color: white;
+  }
+  .menu_bar .btn-menu{
+    display: flex;
+    text-decoration: none;
+    padding: 10px;
+    color: #fff;
+    position: relative;
+    left: -10px;
+    font-family: lato;
+    font-size: 15px;
+  }
+
   .img-slider{
     width: 600px;
     height: 375px;
