@@ -16,6 +16,7 @@ header nav{
   background-color: #F94040;
   font-family: 'Lato', sans-serif;
   height: 70px;
+  z-index: 3;
 }
 .menu_bar{
   display: none;
@@ -230,7 +231,7 @@ section{
     position: relative;
     left: -10px;
     font-family: lato;
-    font-size: 15px;
+    font-size: 20px;
   }
 
   .img-slider{
