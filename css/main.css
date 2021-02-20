@@ -142,15 +142,15 @@ nav ul li a:hover{
 /*-PARTIDOS------------------------------------>*/
 
 
-/*-SLIDER-------------------------------------->
-header section{
+/*-SLIDER-------------------------------------->*/
+.carrousel-container{
   display: flex;
   justify-content: center;
 }
 .img-slider{
   position: relative;
   width: 800px;
-  height: 500px;
+  height: 530px;
   margin: 10px;
   background: #36373b;
 }
@@ -222,7 +222,6 @@ header section{
 section{
   padding: 20px;
 }
-*/
 /*-SLIDER------ -------------------------------->*/
 
 
@@ -279,7 +278,12 @@ section{
     -moz-box-sizing: border-box;
     box-sizing: border-box;
   }
-  /*
+
+  .partido-container .grid-item{
+    grid-column: 2;
+    height: 200px;
+  }
+
   .img-slider{
     width: 600px;
     height: 375px;
@@ -307,9 +311,8 @@ section{
     height: 10px;
     margin: 8px;
   }
-  */
 }
-/*
+
 @media (max-width: 620px){
   .img-slider{
     width: 400px;
@@ -364,5 +367,4 @@ section{
     bottom: 10px;
   }
 }
-*/
 /*--MEDIA----------------------------------->*/
