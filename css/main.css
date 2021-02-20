@@ -203,6 +203,7 @@ section{
   header nav{
     width: 80%;
     height: 100%;
+    left: -100%;
     margin: 0;
     position: fixed;
     display: block;
@@ -222,6 +223,7 @@ section{
   }
   .menu_bar i{
     color: white;
+    font-size: 50px;
   }
   .menu_bar .btn-menu{
     display: flex;
@@ -232,6 +234,9 @@ section{
     left: -10px;
     font-family: lato;
     font-size: 20px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
   }
 
   .img-slider{
