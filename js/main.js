@@ -21,13 +21,7 @@ $(document).ready(main);
      $('.submenu').click(function(){
          $(this).children('.children').slideToggle();
      });
-     $('nav ul').click(function(){
-      if(contador == 0){
-          $('nav').animate({
-              left: '-100%'
-          })
-      }
-  })
+     
  }
 
 
