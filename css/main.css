@@ -224,6 +224,27 @@ section{
 }
 /*-SLIDER------ -------------------------------->*/
 
+/*-FOOTER------ -------------------------------->*/
+footer{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: #F94040;
+  color: white;
+}
+
+footer ul{
+  margin: 0px;
+  padding: 15px;
+}
+
+footer ul li{
+  list-style: none;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+/*-FOOTER------ -------------------------------->*/
 
 /*--KEYFRAMES----------------------------------->*/
 @keyframes  hoverSnake {
