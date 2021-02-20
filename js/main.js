@@ -25,10 +25,7 @@ $(document).ready(main);
  }
 
 
-
-
-
-var slides = document.querySelectorAll('.slide');
+ var slides = document.querySelectorAll('.slide');
 var btns = document.querySelectorAll('.btn');
 let currentSlide = 1;
 
@@ -80,3 +77,7 @@ var repeat = function(activeClass){
   repeater();
 }
 repeat();
+
+
+
+
