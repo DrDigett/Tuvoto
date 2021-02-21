@@ -1,0 +1,14 @@
+.perfil-container{
+    width: 980px;
+    display: grid;
+}
+
+.cuadro-container img{
+    width: 980px;
+}
+
+.cuadro-container .foto-perfil{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
