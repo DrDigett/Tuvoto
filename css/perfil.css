@@ -1,14 +1,73 @@
-.perfil-container{
-    width: 980px;
-    display: grid;
-}
+      .perfil-container{
+        border: 1px solid darkgray;
+        margin: 0 auto;
+        margin-top: 15px;
+        width: 990px;
+        height: 1000px;
+        display: grid;
+        grid-template-columns: 330px 330px 330px;
+        grid-template-rows: 300px 300px 300px 300px;
+      }
+      .portada-container{
+        width: 100%;
+        height: 500px;
+        background-color: darkgreen;
+        grid-column:  1/4;
+      }
+      .portada-container img{
+        width: 100%;
+        height: 500px;
+      }
+      .foto-container{
+        width: 200px;
+        height: 200px;
+        grid-column: 2;
+        grid-row: 2;
+      }
+      .foto-container img{
+        width: 300px;
+        height: 300px;
+        margin: 0 20px;
+        border-radius: 50%;
+      }
+      .name-container{
+        margin: 0 auto;
+        grid-column: 2;
+        grid-row: 3;
+      }
+      .name-container h1{
+        margin:0;
+        padding: 0px;
+      }
+      .name-container p{
+       margin: 2px; 
+      }
+      
+      .details-container{
+        grid-column: 1/2;
+        grid-row: 3;
+        background-color: cornsilk;
+        max-height: 170px;
+        max-width: 300px;
+        border-radius: 10px;
+        margin-top: 80px;
+        margin-left: 20px;
+        padding-left: 10px;
+      }
+      .details-container h2{
+          margin-bottom: 6px;
+      }
+      .details-container p{
+          margin-top:0px;
+          line-height: 30px;
+          padding-left: 10px;
+      }
 
-.cuadro-container img{
-    width: 980px;
-}
-
-.cuadro-container .foto-perfil{
-    height: 200px;
-    width: 200px;
-    border-radius: 50%;
-}
+      .public-container{
+          grid-column: 4/2;
+          grid-row: 3/5;
+          margin:80px auto;
+          width: 600px;
+          height: 100%;
+          background-color: aquamarine;
+      }
