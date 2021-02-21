@@ -127,6 +127,7 @@ nav ul li a:hover{
     background-color: #D5DBDB;
   }
   .partido-container img{
+    width: 100px;
     display: block;
     margin: 0 auto;
     max-width: 90px;
