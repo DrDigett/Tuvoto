@@ -1,0 +1,54 @@
+section{
+    width: 70%;
+    margin: 30px auto;
+    display: block;
+}
+
+section h1{
+    width: 300px;
+    text-decoration: underline;
+    margin: 10px auto;
+}
+
+.info-container{
+    width: 100%;
+}
+
+.info-container img{
+    width: 100%;
+}
+
+.info-container h2{
+    width: 200px;
+    margin: 10px auto;
+    font-size: 30px;
+}
+
+
+.button-container{
+    text-decoration: underline;
+    width: 100px;
+    margin: 20px auto;
+
+}
+.button-container a{
+    color: red;
+    font-size: 30px;
+    padding: 5px 20px;
+    border: 3px solid red;
+    border-radius: 30%;
+}
+
+.button-container a:hover{
+    background-color: red;
+    color: white;
+}
+
+@media (max-width: 420px){
+    section{
+        width: 280px;
+    }
+    section h1{
+        font-size: 20px;
+    }
+}

@@ -1,12 +1,10 @@
       .perfil-container{
-        border: 1px solid darkgray;
-        margin: 0 auto;
-        margin-top: 15px;
+        margin: 15px auto;
         width: 990px;
-        height: 1000px;
+        height: 1500px;
         display: grid;
         grid-template-columns: 330px 330px 330px;
-        grid-template-rows: 300px 300px 300px 300px;
+        grid-template-rows: 300px 300px 300px 300px 300px;
       }
       .portada-container{
         width: 100%;
@@ -65,9 +63,63 @@
 
       .public-container{
           grid-column: 4/2;
-          grid-row: 3/5;
+          grid-row: 3/6;
           margin:80px auto;
           width: 600px;
-          height: 100%;
           background-color: aquamarine;
+      }
+
+      .friend-container{
+        grid-row: 4;
+        width: 310px;
+        height: 310px;
+        margin-top: -30px;
+        margin-left: 20px;
+        border-radius: 20px;
+        background-color: gray;
+      }
+      .friend-container h2{
+        margin-top: 10px;
+        margin-left: 20px;
+        margin-bottom: 6px;
+        padding: 0px;
+      }
+      .friend-container .cuadrado-container{
+        margin: 0 30px;
+        display: grid;
+        grid-template-columns: 80px 80px 80px;
+        grid-gap: 5px;
+      }
+
+      .cuadrado-container .cuadrado{
+        background-color: chartreuse;
+        width: 80px;
+        height: 80px;
+      }
+      .photos-container{
+        grid-row: 5;
+        width: 310px;
+        height: 310px;
+        margin-top: -10px;
+        margin-left: 20px;
+        border-radius: 20px;
+        background-color: gray;
+      }
+      .photos-container h2{
+        margin-top: 10px;
+        margin-left: 20px;
+        margin-bottom: 6px;
+        padding: 0px;
+      }
+      .photos-container .cuadrado-container{
+        margin: 0 30px;
+        display: grid;
+        grid-template-columns: 80px 80px 80px;
+        grid-gap: 5px;
+      }
+
+      .cuadrado-container .cuadrado{
+        background-color: chartreuse;
+        width: 80px;
+        height: 80px;
       }
