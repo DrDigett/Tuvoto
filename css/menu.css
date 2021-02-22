@@ -19,18 +19,17 @@ section h1{
 }
 
 .info-container h2{
-    width: 200px;
-    margin: 10px auto;
+    margin: 9px 20px;
     font-size: 30px;
 }
 
 
 .button-container{
     text-decoration: underline;
-    width: 100px;
-    margin: 20px auto;
-
+    width: 30px;
+    margin: 0 auto;
 }
+
 .button-container a{
     color: red;
     font-size: 30px;
